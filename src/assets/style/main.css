@@ -1,0 +1,147 @@
+:root {
+  color-scheme: dark light;
+  font-family: system-ui;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  background: #EDF4E9;
+}
+
+@font-face {
+  font-family: "filson-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: url(https://use.typekit.net/quo4url.css);
+}
+h1, h2, h3, p {
+  display: flex;
+  justify-content: center;
+  color: #385724;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 50px 0 30px 0;
+}
+
+h3 {
+  padding: 0 0 20px 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 35px;
+}
+
+nav img {
+  width: auto;
+  padding: 3px;
+}
+nav #nav-top {
+  background: #EDF4E9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1vw;
+  width: auto;
+  height: 10vh;
+}
+nav #nav-top #top-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+  height: auto;
+  color: #385724;
+}
+nav #nav-top #search {
+  background: #FFF;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #385724;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 35px;
+  padding: 0 20px;
+  color: #D0CCC8;
+}
+nav #nav-top #search img {
+  width: 20px;
+  height: 20px;
+}
+nav #nav-bot {
+  background: #9F7858;
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 50px;
+}
+nav #nav-bot p {
+  font-family: "filson-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFF;
+}
+
+#bread {
+  display: flex;
+  justify-content: left;
+  padding: 15px 20px;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 500px;
+  height: 300px;
+  padding: 40px;
+}
+
+.box-full {
+  background: #8EC580;
+  margin-top: 30px;
+}
+.box-full h2, .box-full h3, .box-full p {
+  color: #FFF;
+}
+
+#intro {
+  background: #7D9E78;
+}
+
+#ah {
+  display: flex;
+  flex-direction: column;
+}
+#ah h1, #ah p {
+  color: #FFF;
+}
+#ah div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 0 50px 0;
+}
+
+#fb-box {
+  background: #2F8A36;
+  margin: 0 20px;
+  padding: 40px;
+}
+#fb-box h3, #fb-box p {
+  color: #FFF;
+}/*# sourceMappingURL=main.css.map */
